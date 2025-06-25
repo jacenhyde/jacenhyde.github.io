@@ -1,6 +1,6 @@
 ---
 layout: tag
-title: Posts tagged CTFs
+title: CTFs
 tag: CTFs
 permalink: /tag/ctfs/
 ---
