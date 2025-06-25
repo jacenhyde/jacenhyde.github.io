@@ -20,6 +20,61 @@ header a {
   color: var(--bs-body-color) !important;
 }
 
+/* Layout: Top Navigation */
+.top-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  font-size: 1.1em;
+}
+
+/* Layout: Main Content and Sidebar */
+.site-content {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 1rem;
+}
+
+.content-left {
+  flex: 2;
+  min-width: 60%;
+  margin-right: 2rem;
+}
+
+.sidebar {
+  flex: 1;
+  min-width: 200px;
+  max-width: 300px;
+}
+
+/* Theme Toggle */
+.theme-toggle {
+  margin-bottom: 1.5rem;
+}
+
+/* Tag Sidebar */
+.tag-sidebar {
+  margin-top: 1.5rem;
+}
+
+.tag-sidebar ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.tag-sidebar li {
+  margin-bottom: 0.5rem;
+}
+
+/* Footer */
+.site-footer {
+  text-align: center;
+  padding: 2rem;
+  font-size: 0.9em;
+  opacity: 0.6;
+}
+
 /* Post navigation links */
 .post_navi {
   display: flex;
