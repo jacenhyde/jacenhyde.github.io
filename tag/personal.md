@@ -1,6 +1,6 @@
 ---
 layout: tag
-title: Posts tagged Personal
+title: Personal
 tag: Personal
 permalink: /tag/personal/
 ---
