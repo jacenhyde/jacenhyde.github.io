@@ -12,6 +12,20 @@ hr {
   margin-bottom: 20px;
 }
 
+.site-footer a {
+  color: var(--bs-link-color);
+  text-decoration: none;
+}
+
+.site-footer a:hover {
+  text-decoration: underline;
+}
+
+.site-footer {
+  opacity: 0.6;
+}
+
+
 a.site-title,
 .site-title,
 .site-nav a,
