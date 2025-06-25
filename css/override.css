@@ -12,6 +12,11 @@ hr {
   margin-bottom: 20px;
 }
 
+.site-title,
+.site-nav a {
+  color: var(--bs-body-color) !important;
+}
+
 /* Post navigation links */
 .post_navi {
   display: flex;
