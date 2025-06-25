@@ -1,5 +1,5 @@
-Here you can say lots of fun things about your site.
+Here is the 2nd most boring Static Screen you'll ever see.
 
-Maybe say a some things about yourself.
+We have Exploits, Malware, Cookies and failed C2 Frameworks.
 
-Or maybe what you plan to blog about.
+Stay a while,
