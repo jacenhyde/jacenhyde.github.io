@@ -11,38 +11,6 @@ hr {
   margin-top: 30px;
   margin-bottom: 20px;
 }
-.top-nav {
-  display: flex;
-  justify-content: space-between;
-  padding: 1rem;
-}
-
-.site-content {
-  display: flex;
-  padding: 1rem;
-}
-
-.content-left {
-  flex: 2;
-  margin-right: 2rem;
-}
-
-.sidebar {
-  flex: 1;
-  min-width: 200px;
-}
-
-.theme-toggle,
-.tag-sidebar {
-  margin-bottom: 1.5rem;
-}
-
-.site-footer {
-  text-align: center;
-  padding: 2rem;
-  font-size: 0.9em;
-  opacity: 0.6;
-}
 
 a.site-title,
 .site-title,
