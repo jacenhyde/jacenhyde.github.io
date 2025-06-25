@@ -1,6 +1,6 @@
 ---
 layout: tag
-title: Posts tagged Certifications
+title: Certifications
 tag: Certifications
 permalink: /tag/certifications/
 ---
