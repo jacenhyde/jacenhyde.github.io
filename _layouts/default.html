@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  {% include head.html %}
+</head>
+<body>
+  <header class="site-header">
+    <nav class="navbar">
+      <a href="{{ "/" | absolute_url }}" class="navbar-brand">{{ site.title }}</a>
+      <div class="navbar-links">
+        <a href="{{ "/" | absolute_url }}">Home</a>
+        <a href="{{ "/archive.html" | absolute_url }}">Archive</a>
+        <!-- Theme toggle switch -->
+        <span class="form-check form-switch ms-3">
+          <input class="form-check-input" type="checkbox" id="themeToggle">
+          <label class="form-check-label" for="themeToggle">🌙</label>
+        </span>
+      </div>
+    </nav>
+  </header>
+
+  <main class="site-main">
+    {{ content }}
+  </main>
+
+  <footer class="site-footer">
+    {% include sharelinks.html %}
+  </footer>
+
+  <script src="/js/theme-toggle.js"></script>
+</body>
+</html>
