@@ -1,6 +1,6 @@
 ---
 layout: tag
-title: Posts tagged Miscellaneous
+title: Miscellaneous
 tag: Miscellaneous
 permalink: /tag/miscellaneous/
 ---
