@@ -12,8 +12,11 @@ hr {
   margin-bottom: 20px;
 }
 
+a.site-title,
 .site-title,
-.site-nav a {
+.site-nav a,
+nav a,
+header a {
   color: var(--bs-body-color) !important;
 }
 
