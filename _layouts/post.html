@@ -3,7 +3,14 @@ layout: default
 ---
 <link href="/css/override.css" rel="stylesheet" type="text/css">
 <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
-
+  <div class="post-theme-toggle text-center mb-3">
+    <div class="form-check form-switch d-inline-block">
+      <input class="form-check-input" type="checkbox" role="switch" id="themeToggle">
+      <label class="form-check-label" for="themeToggle">🌙</label>
+    </div>
+  </div>
+     
+  
   <header class="post-header">
     <h1 class="post-title p-name" itemprop="name headline">{{ page.title | escape }}</h1>
     <p class="post-meta">
@@ -27,4 +34,5 @@ layout: default
   </div>
 
   <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
+  <script src="/js/theme-toggle.js"></script>
 </article>
